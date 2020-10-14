@@ -12,8 +12,7 @@ const Demo = props => {
     );
   });
   return (
-    <>
-      
+    <><h2>{props.course}</h2>
       <table className="table table-bordered">
         <thead>
           <tr>
